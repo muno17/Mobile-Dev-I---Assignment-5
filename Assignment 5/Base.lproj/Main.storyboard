@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="iPad13_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,32 +12,32 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Assignment_5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-sc-57s">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1032" height="1376"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0JV-FK-fW4">
-                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="32" width="1032" height="1299"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Great Adventure" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw2-gt-2L8">
-                                        <rect key="frame" x="76" y="0.0" width="241" height="222"/>
+                                        <rect key="frame" x="287" y="0.0" width="458" height="433"/>
                                         <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="40"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMZ-w3-Kpo">
-                                        <rect key="frame" x="123.66666666666669" y="222" width="146" height="222"/>
+                                        <rect key="frame" x="443" y="433" width="146" height="433"/>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="60R-vB-wld">
-                                        <rect key="frame" x="30" y="444" width="333" height="222"/>
+                                        <rect key="frame" x="30" y="866" width="972" height="433"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsc-EM-h2h">
-                                                <rect key="frame" x="0.0" y="0.0" width="333" height="103.66666666666667"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="972" height="209"/>
                                                 <color key="backgroundColor" red="0.59240764379501343" green="0.48461723327636719" blue="0.90915632247924805" alpha="0.67432328345070425" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button1">
@@ -49,7 +49,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P92-oK-bwr">
-                                                <rect key="frame" x="0.0" y="118.66666666666663" width="333" height="103.33333333333331"/>
+                                                <rect key="frame" x="0.0" y="224" width="972" height="209"/>
                                                 <color key="backgroundColor" red="0.59240764379501343" green="0.48461723327636719" blue="0.90915632247924805" alpha="0.67432328345070425" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button2">
@@ -97,6 +97,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Galaxy" width="426.66665649414062" height="640"/>
+        <image name="Galaxy" width="426.5" height="640"/>
     </resources>
 </document>
