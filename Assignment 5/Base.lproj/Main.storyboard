@@ -21,44 +21,51 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0JV-FK-fW4">
                                 <rect key="frame" x="0.0" y="118" width="393" height="666"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw2-gt-2L8">
-                                        <rect key="frame" x="176" y="0.0" width="41.333333333333343" height="222"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Great Adventure" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dw2-gt-2L8">
+                                        <rect key="frame" x="76" y="0.0" width="241" height="222"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMZ-w3-Kpo">
-                                        <rect key="frame" x="153.33333333333334" y="222" width="86.333333333333343" height="222"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMZ-w3-Kpo">
+                                        <rect key="frame" x="123.66666666666669" y="222" width="146" height="222"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="60R-vB-wld">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="60R-vB-wld">
                                         <rect key="frame" x="30" y="444" width="333" height="222"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsc-EM-h2h">
-                                                <rect key="frame" x="0.0" y="0.0" width="333" height="90.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="103.66666666666667"/>
                                                 <color key="backgroundColor" red="0.59240764379501343" green="0.48461723327636719" blue="0.90915632247924805" alpha="0.67432328345070425" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button1">
                                                     <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerSubmitted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpD-2I-RPm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P92-oK-bwr">
-                                                <rect key="frame" x="0.0" y="131.66666666666663" width="333" height="90.333333333333314"/>
+                                                <rect key="frame" x="0.0" y="118.66666666666663" width="333" height="103.33333333333331"/>
                                                 <color key="backgroundColor" red="0.59240764379501343" green="0.48461723327636719" blue="0.90915632247924805" alpha="0.67432328345070425" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Button2">
                                                     <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="answerSubmitted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8N-3G-Bdx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="dw2-gt-2L8" firstAttribute="height" secondItem="rMZ-w3-Kpo" secondAttribute="height" id="Sbd-s3-ulM"/>
+                                    <constraint firstAttribute="bottom" secondItem="60R-vB-wld" secondAttribute="bottom" id="bZ0-hg-Yuc"/>
                                     <constraint firstItem="60R-vB-wld" firstAttribute="height" secondItem="rMZ-w3-Kpo" secondAttribute="height" id="cMC-pX-zYF"/>
                                     <constraint firstItem="60R-vB-wld" firstAttribute="leading" secondItem="0JV-FK-fW4" secondAttribute="leading" constant="30" id="dOO-kQ-7tp"/>
                                     <constraint firstAttribute="trailing" secondItem="60R-vB-wld" secondAttribute="trailing" constant="30" id="yg6-fx-ShL"/>
@@ -78,6 +85,11 @@
                             <constraint firstAttribute="bottom" secondItem="tbu-sc-57s" secondAttribute="bottom" id="p92-an-4Cv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="option1" destination="Wsc-EM-h2h" id="yvr-nl-MMU"/>
+                        <outlet property="option2" destination="P92-oK-bwr" id="NGy-uJ-0O9"/>
+                        <outlet property="storyLabel" destination="rMZ-w3-Kpo" id="Bvh-Nb-jTm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
